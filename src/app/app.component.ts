@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
     path: string,
     name: string
   }> = [];
-  @ViewChild(IgxNavigationDrawerComponent) public navdrawer: IgxNavigationDrawerComponent;
+  // @ViewChild(IgxNavigationDrawerComponent) public navdrawer: IgxNavigationDrawerComponent;
 
   constructor(private router: Router) {
     for (const route of routes) {
@@ -35,10 +35,10 @@ export class AppComponent implements OnInit {
       filter((x) => x instanceof NavigationStart)
     )
       .subscribe((event: NavigationStart) => {
-          if (event.url !== '/' && !this.navdrawer.pin) {
-              // Close drawer when selecting a view on mobile (unpinned)
-              this.navdrawer.close();
-          }
+          // if (event.url !== '/' && !this.navdrawer.pin) {
+          //     // Close drawer when selecting a view on mobile (unpinned)
+          //     this.navdrawer.close();
+          // }
       });
   }
 }
