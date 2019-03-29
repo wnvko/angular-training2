@@ -1,3 +1,7 @@
+[![Build Status](https://dev.azure.com/MVenkov/angular-training2/_apis/build/status/wnvko.angular-training2?branchName=master)](https://dev.azure.com/MVenkov/angular-training2/_build/latest?definitionId=1&branchName=master)
+
+[![Build Status](https://travis-ci.org/wnvko/angular-training2.svg?branch=master)](https://travis-ci.org/wnvko/angular-training2)
+
 # angular-training2
 
 This project was generated with [Ignite UI CLI](https://github.com/IgniteUI/igniteui-cli) version 4.1.3.
